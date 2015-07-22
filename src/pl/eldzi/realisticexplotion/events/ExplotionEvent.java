@@ -68,7 +68,7 @@ public class ExplotionEvent implements Listener {
 		for (Player pl : nearbyPlayer) {
 			VectorUtil.pushBlockFromTNT(e.getEntity(), pl, 4.0);
 
-			pl.playSound(pl.getLocation(), Sound.FIREWORK_BLAST, 3.0f, 3.0f);
+			//pl.playSound(pl.getLocation(), Sound.FIREWORK_BLAST, 3.0f, 3.0f);
 		}
 	}
 }
